@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\liufuqiang\Desktop\bysj\com.bady.tech-master\com.bady.tech-master\assets"><file name="techdb.db" path="C:\Users\liufuqiang\Desktop\bysj\com.bady.tech-master\com.bady.tech-master\assets\techdb.db"/></source></dataSet><dataSet config="debug"><source path="C:\Users\liufuqiang\Desktop\bysj\com.bady.tech-master\com.bady.tech-master\build-types\debug\assets"/></dataSet></merger>

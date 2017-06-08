@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bottom_bar_labels">
+        <item>@string/home</item>
+        <item>@string/category</item>
+        <item>@string/collect</item>
+        <item>@string/setting</item>
+    </string-array>
+    <color name="app_bg">#fffff1</color>
+    <color name="app_detail_descript_introduce">#999999</color>
+    <color name="black">#000000</color>
+    <color name="color_0066ff">#0066ff</color>
+    <color name="color_a3a3a3">#a3a3a3</color>
+    <color name="color_text_black">#000000</color>
+    <color name="color_text_blue">#0000FF</color>
+    <color name="color_text_blue_ex">#0080FF</color>
+    <color name="color_text_fastnavi">#808080</color>
+    <color name="color_text_speed">#FFFF00</color>
+    <color name="color_text_white">#FFFFFF</color>
+    <color name="d7d7d7">#d7d7d7</color>
+    <color name="dark_gray">#333333</color>
+    <color name="f7f7f7">#f7f7f7</color>
+    <color name="gray">#808080</color>
+    <color name="gray_darkGray">#A9A9A9</color>
+    <color name="gray_dimGray">#696969</color>
+    <color name="gray_lightGray">#D3D3D3</color>
+    <color name="green">#00ff00</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange_dark">#FF8C00</color>
+    <color name="red">#ff0000</color>
+    <color name="tab_item_text_color">#FFB3B3B3</color>
+    <color name="tab_item_text_color_press">#FF29ABE2</color>
+    <color name="title_text_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="TabWidget"><attr format="reference" name="bottom_labels"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_bottom">10dip</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_left">10dip</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_right">10dip</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_top">10dip</dimen>
+    <dimen name="item_margin_top">8dip</dimen>
+    <drawable name="gray">#8d8d8d</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <string name="about_info">\t\t\t\儿童识字，本软件专注于一至六周岁儿童识字，通过简单有效的方式，易教易学，快速帮助学龄前儿童掌握一千二百个汉字的应用软件。同时帮助学龄前儿童学习简单的儿歌，名诗名词。儿歌及诗词多选用朗朗上口简单易学的经典词句。</string>
+    <string name="action_childstory">儿童故事</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="action_games">精品游戏</string>
+    <string name="action_mp3">儿童音乐</string>
+    <string name="action_mp4">常用韵母</string>
+    <string name="action_recommend">精品推荐</string>
+    <string name="action_settings">进入设置</string>
+    <string name="action_share">分享给好友</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_update">检查新版本</string>
+    <string name="action_weather">天气预报</string>
+    <string name="app_name">儿童识字</string>
+    <string name="app_version">1.2.5</string>
+    <string name="category">学习空间</string>
+    <string name="collect">测验</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">识字</string>
+    <string name="info_five">更多内容持续更新中……</string>
+    <string name="info_four">4、优美图片；</string>
+    <string name="info_one">1、卡片形式；</string>
+    <string name="info_three">3、经典诗词；</string>
+    <string name="info_two">2、简单儿歌；</string>
+    <string name="login_main">开始体验</string>
+    <string name="login_progress_signing_in">Signing in…</string>
+    <string name="my_ip">http://192.168.1.104</string>
+    <string name="my_loc_ip">http://192.168.1.1</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="setting">更多</string>
+    <string name="share_content">http://192.168.1.1/apk/ertongshizi.apk</string>
+    <string name="text_feature_not_supported">未开放该业务功能</string>
+    <string name="text_net_busy">网络繁忙，请稍等重试</string>
+    <string name="text_net_interrupted">网络异常中断，请检查网络连接</string>
+    <string name="text_net_io_exception">网络传输异常，请稍等重试</string>
+<!--     <string name="text_net_not_available">网络处于关闭状态，请连接GPRS或WIFI网络</string> -->
+    <string name="text_net_server_exception">服务器异常，请联系客服</string>
+    <string name="text_network_available">网络服务已恢复</string>
+    <string name="text_network_unavailable">网络服务不可用，请检查网络连接</string>
+    <string name="text_success">数据加载成功</string>
+    <string name="text_unknown_error">未知错误</string>
+    <string name="title_activity_blank">BlankActivity</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_study_img">StudyImgActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_four">更多</string>
+    <string name="title_one">识字</string>
+    <string name="title_three">测验</string>
+    <string name="title_two">学习空间</string>
+</resources>

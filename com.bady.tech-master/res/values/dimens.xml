@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="dimens_activity_EventInfoListActivity_list_item_margin_top">10dip</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_bottom">10dip</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_right">10dip</dimen>
+    <dimen name="dimens_activity_EventInfoListActivity_list_item_margin_left">10dip</dimen>
+    <dimen name="item_margin_top">8dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

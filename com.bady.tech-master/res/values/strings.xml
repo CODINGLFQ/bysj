@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- <string name="app_name">学龄前儿童识字系统</string>  -->
+    <string name="app_version">1.0</string>
+    <string name="action_settings">进入设置</string>
+    <string name="action_mp4">常用韵母</string>
+    <string name="action_mp3">儿童音乐</string>
+    <string name="action_childstory">儿童故事</string>
+    <string name="action_weather">天气预报</string>
+    <string name="action_share">分享给好友</string>
+    <string name="action_recommend">精品推荐</string>
+    <string name="action_games">精品游戏</string>
+    <string name="action_update">检查新版本</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_main">开始体验</string>
+    <string name="about_info">\t\t\t\t欢迎使用基于移动端的儿童识字系统!本应用软件主要针对的是一至六岁的学龄前的儿童，能够有效帮助学龄前儿童快速掌握字母和基础的汉字，培养学习的兴趣。</string>
+    <string name="info_one">1、卡片形式；</string>
+    <string name="info_two">2、简单儿歌；</string>
+    <string name="info_three">3、经典诗词；</string>
+    <string name="info_four">4、优美图片；</string>
+    <string name="info_five">更多内容持续更新中……</string>
+    <string name="title_activity_blank">BlankActivity</string>
+    <string name="share_content">http://192.168.1.1/apk/ertongshizi.apk</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="my_ip">http://192.168.1.104</string>
+    <string name="my_loc_ip">http://192.168.1.1</string>
+    
+    <string name="hello">Hello World, SQLiteLoginActivity!</string>
+    <string name="app_name">儿童识字</string>
+    
+<!--     识字测试 -->
+
+<!--     <string name="action_settings">Settings</string> -->
+    <string name="true_button">对</string>
+    <string name="false_button">错</string>
+    <string name="next_button">下一题</string>
+    <string name="back_button">返回</string>
+    <string name="correct_toast">您答对了!</string>
+    <string name="incorrect_toast">答错了</string>
+    <string name="question_ocean">“啊” 读音为：“a”</string>
+    <string name="question_mideast">“云”读音为“yu”</string>
+	<string name="question_africa">“月”读音为：“mu”</string>
+	<string name="question_americas">“山”读音为“shan”</string>
+	<string name="question_asia">“水”读音为：“shui”</string>
+	<string name="question_yi">“一” 读音为：“yu”</string>
+    <string name="question_er">“二”读音为“er”</string>
+	<string name="question_san">“三”读音为：“shang”</string>
+	<string name="question_si">“四”读音为“si”</string>
+	<string name="question_wu">“五”读音为：“we”</string>
+	<string name="cheat_button">看答案!</string>
+	<string name="waring_text">确定查看答案吗？</string>
+	<string name="show_answer_button">查看答案</string>
+	<string name="judgment_toast">答案已查看！</string>
+
+    <!-- 网络请求相关 -->
+<!--     <string name="text_net_not_available">网络处于关闭状态，请连接GPRS或WIFI网络</string> -->
+    <string name="text_feature_not_supported">未开放该业务功能</string>
+    <string name="text_network_unavailable">网络服务不可用，请检查网络连接</string>
+    <string name="text_network_available">网络服务已恢复</string>
+    <string name="text_net_busy">网络繁忙，请稍等重试</string>
+    <string name="text_net_interrupted">网络异常中断，请检查网络连接</string>
+    <string name="text_net_io_exception">网络传输异常，请稍等重试</string>
+    <string name="text_net_server_exception">服务器异常，请联系客服</string>
+    <string name="text_unknown_error">未知错误</string>
+    <string name="text_success">数据加载成功</string>
+
+    <!-- 功能项目 标题 -->
+    <string name="title_one">识字</string>
+    <string name="title_two">学习空间</string>
+    <string name="title_three">识字测验</string>
+    <string name="title_four">更多</string>
+    <string name="title_activity_study_img">StudyImgActivity</string>
+
+    
+    
+    <string name="home">识字</string>
+    <string name="category">学习空间</string>
+    <string name="collect">测验</string>
+    <string name="setting">更多</string>
+    
+</resources>

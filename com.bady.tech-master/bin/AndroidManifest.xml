@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baby.tech"
+    android:versionCode="2016"
+    android:versionName="@string/app_version" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.baby.tech.base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+		android:theme="@android:style/Theme.NoTitleBar"> <!--     整个应用都去掉标题栏    -->
+        <!--         android:theme="@style/AppTheme"  -->
+        
+        <activity
+            android:name="com.baby.tech.activity.TabActivity"
+            android:label="@string/app_name"
+            android:configChanges="screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name="com.baby.tech.login.RegisterActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.baby.tech.login.UpdateLoginActivity"
+            android:label="@string/app_name">
+        </activity>
+         <activity
+            android:name="com.baby.tech.test.BabyTestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baby.tech.test.AnswerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.baby.tech.login.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baby.tech.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 添加必须的组件 -->
+        <activity
+            android:name="net.youmi.android.AdBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="net.youmi.android.AdService"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="net.youmi.android.AdReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 配置SmartBanner -->
+        <activity
+            android:name="net.youmi.android.SmartBannerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" >
+        </activity>
+
+        <service
+            android:name="net.youmi.android.SmartBannerService"
+            android:exported="false" >
+        </service>
+
+        <!-- 有米渠道号(可选配置) 渠道号不能带空格，类型为整数 -->
+        <meta-data
+            android:name="YOUMI_CHANNEL"
+            android:value="0" >
+        </meta-data>
+
+        <activity
+            android:name="com.baby.tech.activity.BlankActivity"
+            android:label="@string/title_activity_blank" >
+        </activity>
+        <activity
+            android:name="com.baby.tech.activity.AWeatherActivity"
+            android:label="@string/action_weather" >
+        </activity>
+        <activity
+            android:name="com.baby.tech.activity.UpdateActivity"
+            android:label="@string/title_activity_update" >
+        </activity>
+        
+          <activity
+            android:name="com.baby.tech.activity.ChildStoryActivity"
+            android:label="@string/action_childstory" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.baby.tech.activity.Mp3Activity"
+            android:label="@string/action_mp3" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.baby.tech.activity.MediaPlayerActivity"
+            android:label="@string/action_mp4" 
+            android:screenOrientation="landscape">
+        </activity>
+        
+    </application>
+
+    <!-- 配置权限 -->
+     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+</manifest>

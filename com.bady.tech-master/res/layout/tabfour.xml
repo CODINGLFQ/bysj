@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+      <!-- title bar -->
+    <include 
+        layout="@layout/title_bar"/>
+   <RelativeLayout
+        android:id="@+id/sharebnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left"
+        android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right"
+        android:layout_marginTop="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_top"
+        android:background="@drawable/bg_button" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left"
+            android:background="@drawable/more_share" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right"
+            android:background="@drawable/arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right"
+            android:text="朋友分享"
+            android:textColor="@color/color_text_black" />
+    </RelativeLayout>
+
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/updatebtn" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left" -->
+<!--         android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right" -->
+<!--         android:layout_marginTop="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_top" -->
+<!--         android:background="@drawable/bg_button" > -->
+
+<!--         <TextView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerVertical="true" -->
+<!--             android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left" -->
+<!--             android:background="@drawable/more_update" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_centerVertical="true" -->
+<!--             android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right" -->
+<!--             android:background="@drawable/arrow_left" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerHorizontal="true" -->
+<!--             android:layout_centerVertical="true" -->
+<!--             android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right" -->
+<!--             android:text="更新版本" -->
+<!--             android:textColor="@color/color_text_black" /> -->
+<!--     </RelativeLayout> -->
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/aboutbtn" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left" -->
+<!--         android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right" -->
+<!--         android:layout_marginTop="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_top" -->
+<!--         android:background="@drawable/bg_button" > -->
+
+<!--         <TextView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerVertical="true" -->
+<!--             android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left" -->
+<!--             android:background="@drawable/more_about" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_centerVertical="true" -->
+<!--             android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right" -->
+<!--             android:background="@drawable/arrow_left" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerHorizontal="true" -->
+<!--             android:layout_centerVertical="true" -->
+<!--             android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right" -->
+<!--             android:text="关于我们" -->
+<!--             android:textColor="@color/color_text_black" /> -->
+<!--     </RelativeLayout> -->
+    <RelativeLayout
+        android:id="@+id/settingbnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left"
+        android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right"
+        android:layout_marginTop="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_top"
+        android:background="@drawable/bg_button" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_left"
+            android:background="@drawable/more_setting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right"
+            android:background="@drawable/arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_activity_EventInfoListActivity_list_item_margin_right"
+            android:text="设置"
+            android:textColor="@color/color_text_black" />
+    </RelativeLayout>
+
+
+   
+
+
+
+</LinearLayout>

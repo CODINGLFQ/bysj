@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主界面的布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+  
+  	<RelativeLayout 
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="fill_parent"
+  	    >
+  
+    <RelativeLayout
+        android:id="@+id/MainActivityrlTwo"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp" >
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/studyImagGridMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MainActivityrlTwo"
+        android:layout_marginTop="5dp"
+        android:columnWidth="80dp"
+        android:numColumns="2" />
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_marginTop="45dp"
+        android:layout_below="@id/studyImagGridMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/MainActivityrlThree"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" >
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/tvLineBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+    </RelativeLayout>
+</RelativeLayout>
+</LinearLayout>

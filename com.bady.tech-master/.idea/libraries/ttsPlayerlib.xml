@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ttsPlayerlib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ttsPlayerlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
